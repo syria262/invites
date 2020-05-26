@@ -73,7 +73,7 @@ if(message.content === prefix + 'invite-info') {
 });
 
 client.on('message', message => {
-   if(message.content.startsWith(prefix + "دعوات")) {
+   if(message.content.startsWith(prefix + "invite")) {
     message.guild.fetchInvites().then(invs => {
       let user = message.mentions.users.first() || message.author
       let personalInvites = invs.filter(i => i.inviter.id === user.id);
