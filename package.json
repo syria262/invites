@@ -5,7 +5,7 @@
   "main": "bot.js",
   "dependencies": {
     "node": "8.x",
-    "discord.js": "^11.4.2",
+    "discord.js": "^11.3.2",
     "ffmpeg": "^0.0.4",
     "ffmpeg-binaries": "^4.0.0",
     "get-youtube-id": "^1.0.0",
@@ -20,7 +20,6 @@
     "request": "^2.88.0",
     "simple-youtube-api": "^5.0.2",
     "youtube-info": "^1.2.0",
-    "moment":"^2.24.0",
     "ytdl-core": "^0.21.1"
   },
 
